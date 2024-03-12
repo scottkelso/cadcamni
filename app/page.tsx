@@ -126,6 +126,68 @@ export default function Home() {
           </a>
         </div>
       </div>
+
+      <section className="flex flex-col items-center justify-between p-24" style={{backgroundColor: 'white'}}>
+        <div id="services" className="">
+          <div className="">
+            <h1 className="text-5xl font-extrabold text-gray-900">Services</h1>
+            <p className="text-lg text-gray-500 divide-b">Complete manufacturing solutions, including work holding, tooling, NC programs & part manufacturing.</p>
+            <hr className="hr mb-5" />
+
+            <div className="flex flex-row justify-content-center">
+              <div className="p-2 flex-col-6">
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/images/CadDrawing.gif"
+                  alt="Cad drawing of a part"
+                  width={350}
+                  height={306}
+                />
+              </div>
+
+              <div className="p-2 flex-col-6">
+                <ul className="list-disc">
+                  <li>Subcontract programming</li>
+                  <li>3, 4 and 5 axis milling machines</li>
+                  <li>Program prove-out and part manufacturing</li>
+                  <li>Complete fixture and work holding solutions</li>
+                  <li>Fixture design and manufacturing</li>
+                  <li>Sole distributer for 'compact reverse screws'</li>
+                  <li>Matrix plate design and manufacture</li>
+                  <li>Mastercam sales and support </li>
+                </ul>
+              </div>
+            </div>
+
+            <button type="button" className="btn btn-primary">Primary</button>
+
+            <div className="">
+              <ul className="buttons">
+                <li>
+                  <a href="#contact">
+                    <div className="btn blueButton btn-block">
+                      <h2>CONTACT</h2>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#bio">
+                  <div className="blueButton btn-block">
+                      <h2>BIOGRAPHY</h2>
+                  </div></a>
+                </li>
+                <li>
+                  <div className="blueButton">
+                      <h2>MORE DETAILS</h2>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
     </main>
   );
 }

@@ -42,3 +42,94 @@ body {
     @apply text-xl;
   }
 }
+
+/*** BUTTONS ***/
+button {
+  display:inline-block;
+}
+
+.buttons li{
+	display:inline-block;
+}
+
+.buttons{
+	width:100%;
+	margin:0 auto 0 auto;
+}
+
+.buttonLikeImage{
+	width:200px;
+	height:70px;
+	margin:20px;
+}
+
+.buttonLikeImage:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.blueButton{
+	width:300px;
+	height:70px;
+	margin:20px;
+  @apply text-center;
+	background-color:#0048ff;
+	border:solid medium #0048ff;
+}
+.blueButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.blueButton:hover{
+	background-color:transparent;
+	border:solid medium #0048ff;
+	color:#0048ff;
+}
+.blueButton:hover h2{
+	color:#0048ff;
+}
+
+
+.redButton{
+	width:250px;
+	height:70px;
+	margin:20px;
+  @apply text-center;
+	background-color:#c01421;
+	border:solid medium #c01421;
+}
+.redButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.redButton:hover{
+	background-color:transparent;
+	border:solid medium #c01421;
+	color:#c01421;
+}
+.redButton:hover h2{
+	color:#c01421;
+}
+
+.btn-block{
+	max-width:350px;
+	min-height:70px;
+	margin:20px;
+}
+.orangeButton{
+	padding:0 20px;
+  @apply text-center;
+	background-color:#ff8900;
+	border:solid medium #ff8900;
+}
+.orangeButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.orangeButton:hover{
+	background-color:transparent;
+	border:solid medium #ff8900;
+	color:#ff8900;
+}
+.orangeButton:hover h2{
+	color:#ff8900;
+}
