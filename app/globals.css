@@ -43,6 +43,11 @@ body {
   }
 }
 
+#mastercam{
+	background: #414141 url(/backgrounds/circuits.gif) no-repeat;
+	background-size:contain;
+}
+
 /*** BUTTONS ***/
 button {
   display:inline-block;
@@ -72,8 +77,8 @@ button {
 	height:70px;
 	margin:20px;
   @apply text-center;
-	background-color:#0048ff;
-	border:solid medium #0048ff;
+  @apply bg-blue-500;
+	border:solid medium #3b82f6;
 }
 .blueButton h2{
 	color:#FFF;
@@ -81,11 +86,11 @@ button {
 }
 .blueButton:hover{
 	background-color:transparent;
-	border:solid medium #0048ff;
-	color:#0048ff;
+	border:solid medium #3b82f6;
+	color:#3b82f6;
 }
 .blueButton:hover h2{
-	color:#0048ff;
+	color:#3b82f6;
 }
 
 
