@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         {/* Calls to action */}
-        <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
           <a
             href="#services"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -99,14 +99,14 @@ export default function Home() {
         </div>
       </div>
 
-      <section id="services" className="flex flex-col items-center justify-between p-24 bg-white">
+      <section id="services" className="flex justify-center p-24 bg-white">
         <div className="">
           <h1 className="text-5xl font-extrabold text-zinc-900">Services</h1>
           <p className="text-lg text-gray-500 divide-b">Complete manufacturing solutions, including work holding, tooling, NC programs & part manufacturing.</p>
           <hr className="hr mb-5" />
 
           <div className="flex flex-row flex-wrap justify-content-center">
-            <div className="basis-1/2">
+            <div className="">
               <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                 src="/images/CadDrawing.gif"
@@ -116,7 +116,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="basis-1/2">
+            <div className="pl-0 md:pl-20">
               <ul className="list-disc pt-6">
                 <li>Subcontract programming</li>
                 <li>3, 4 and 5 axis milling machines</li>
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="">
+          <div className="text-center">
             <ul className="buttons">
               <li>
                 <a href="#contact">
@@ -150,26 +150,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="mastercam" className="flex flex-col items-center justify-between p-24 bg-zinc-700 text-white">
-        <div className="">
-          <a
-            className=""
-            href="https://www.mastercam.com/news/press-releases/mastercam-top-ranking/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="text-5xl font-extrabold text-white-900">#1 in NC Programming<br /> WORLDWIDE</h1>
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/NCchart.png"
-              alt="CadCamNI Logo"
-              width={850}
-              height={224}
-            />
-          </a>
-          <h3>Mastercam is the most widely used NC software package in the world!</h3>
-          <p>- Reported by CIMdata, Inc. for the 21st year in a row</p>
-          <h3>Mastercam has been delivering cutting-edge CAD/CAM software for over 30 years</h3>
+      <section id="mastercam" className="flex justify-center p-24 bg-zinc-700 text-white">
+        <div className="items-center">
 
           <a
             className=""
@@ -186,7 +168,40 @@ export default function Home() {
             />
           </a>
 
-          <div className="">
+          <a
+            className=""
+            href="https://www.mastercam.com/news/press-releases/mastercam-top-ranking/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="text-3xl font-extrabold text-white-900 pt-5 text-right">#1 in NC Programming WORLDWIDE</h1>
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              src="/NCchart.png"
+              alt="CadCamNI Logo"
+              width={850}
+              height={224}
+            />
+          </a>
+
+          <figure className="max-w-screen-md mx-auto text-center mb-4">
+            <blockquote>
+              <p className="text-2xl italic font-medium dark:text-white">"Mastercam is the most widely used NC software package in the world!"</p>
+            </blockquote>
+            <figcaption className="flex items-center justify-center space-x-3 rtl:space-x-reverse">
+                <div className="flex items-center">
+                  <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400">- Reported by CIMdata, Inc. for the 21st year in a row</cite>
+                </div>
+            </figcaption>
+          </figure>
+
+          <figure className="max-w-screen-md mx-auto text-center mb-4">
+            <blockquote>
+              <p className="text-2xl italic font-medium dark:text-white">Mastercam has been delivering cutting-edge CAD/CAM software for over 30 years</p>
+            </blockquote>
+          </figure>
+
+          <div className="text-center">
             <ul className="buttons">
               <li>
                 <a href="https://engtechgroup.com/cad-cam-software/mastercam/mastercam-mill/" target="_new">
@@ -209,11 +224,17 @@ export default function Home() {
               </li>
             </ul>
           </div>
+
+          <figure className="max-w-screen-md mx-auto text-center mt-4">
+            <blockquote>
+              <p className="text-l italic font-medium dark:text-white">"CNC Software, Inc. is dedicated to providing state-of-the-art software tools for CAD/CAM manufacturing markets. Our goal is to provide superior software products based on our users' needs to solve simple to complex design and machining problems."</p>
+            </blockquote>
+          </figure>
         </div>
       </section>
 
-      <section id="products" className="flex flex-col items-center justify-between p-24 bg-stone-200">
-        <div className="">
+      <section id="products" className="flex text-center justify-center p-24 bg-stone-200">
+        <div className="max-w-screen-md">
           <h1 className="text-5xl font-extrabold text-grey-900">REVERSE SCREWS</h1>
           <a
             className=""
@@ -228,9 +249,8 @@ export default function Home() {
               width={850}
               height={224}
             />
-          
           </a>
-          <p>Reverse screw work holding solutions supplier to aerospace, pharmaceutical and general precision engineering manufacturers. Founded by Design Engineer Kenneth Kelso. Based in Northern Ireland, supplying UK and Ireland since 2014.</p>
+          <p className="text-xl mb-5">Reverse screw work holding solutions supplier to aerospace, pharmaceutical and general precision engineering manufacturers. Founded by Design Engineer Kenneth Kelso. Based in Northern Ireland, supplying UK and Ireland since 2014.</p>
 
           <div className="">
             <ul className="buttons">
@@ -254,70 +274,69 @@ export default function Home() {
       </section>
 
       <section id="bio" className="flex flex-col items-center justify-between p-24 bg-indigo-200">
-        <div className="">
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/headshot5.png"
-            alt="Kenneth Kelso with arms folded smiling"
-            width={850}
-            height={224}
-          />
+        <div className="max-w-screen-md">
 
-          <div>
-            <h1 className="text-5xl font-extrabold text-grey-900">KENNETH KELSO</h1>
-            <br/>
-            <h3>Graduated from Ulster University Jordanstown 1995 with a degree in Mechanical Engineering.  Over 20 years experience in CNC programming for the automotive, aerospace and general engineering sectors.</h3>
-            <br/><br/>
-            <p>Smiths Engineering is CadCamNI's manufacturing partner, where concepts & final designs can be manufactured.</p>
+          <div className="flex flex-row flex-wrap justify-content-center">
+            <div className="basis-1/3">
+              <Image
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                src="/headshot5.png"
+                alt="Kenneth Kelso with arms folded smiling"
+                width={200}
+                height={300}
+              />
+            </div>
+
+            <div className="basis-2/3">
+              <div>
+                <h1 className="text-5xl font-extrabold text-grey-900 mb-5">KENNETH KELSO</h1>
+                <h3 className="text-xl">Graduated from Ulster University Jordanstown 1995 with a degree in Mechanical Engineering.  Over 20 years experience in CNC programming for the automotive, aerospace and general engineering sectors.</h3>
+              </div>
+              
+            </div>
           </div>
 
-          <div className="">
-            <ul className="buttons">
-              <li>
-                <a href="https://uk.bombardier.com" target="_blank">
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/bombardierLogo.png"
-                    alt="Bombardier Logo"
-                    width={150}
-                    height={80}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.smiths-engineering.com" target="_blank">
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/smithsLogo.png"
-                    alt="Smiths Engineering Logo"
-                    width={150}
-                    height={80}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://kaneprecisionengineering.com" target="_blank">
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/jwkaneLogo.png"
-                    alt="JWK Engineering Logo"
-                    width={150}
-                    height={80}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://magellan.aero" target="_blank">
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/Magellan_Aerospace_Logo.png"
-                    alt="Magellan Aerospace Logo"
-                    width={150}
-                    height={80}
-                  />
-                </a>
-              </li>
-            </ul>
+
+          <div className="mt-10">
+            <h1 className="text-xl text-center">Working with clients like...</h1>
+            <div className="flex flex-wrap items-center justify-center">
+              <a href="https://uk.bombardier.com" target="_blank">
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  src="/bombardierLogo.png"
+                  alt="Bombardier Logo"
+                  width={200}
+                  height={80}
+                />
+              </a>
+              <a href="https://www.smiths-engineering.com" target="_blank">
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  src="/smithsLogo.png"
+                  alt="Smiths Engineering Logo"
+                  width={200}
+                  height={80}
+                />
+              </a>
+              <a href="https://kaneprecisionengineering.com" target="_blank">
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  src="/jwkaneLogo.png"
+                  alt="JWK Engineering Logo"
+                  width={200}
+                  height={80}
+                />
+              </a>
+              <a href="https://magellan.aero" target="_blank">
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  src="/Magellan_Aerospace_Logo.png"
+                  alt="Magellan Aerospace Logo"
+                  width={200}
+                  height={80}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -332,21 +351,27 @@ export default function Home() {
             height={224}
           />
 
-          <div id="contactUs" className="whitetxt center">
+          <div id="contactUs" className="flex text-white mt-10">
             <div className="">
               <h1>Contact</h1>
-              <h3>t:  07902521108</h3>
-              <h3>e:  kenneth.kelso@cadcamni.co.uk</h3>
+              <a href="phone:07902521108">
+                <h3>07902521108</h3>
+              </a>
+              <a href="mailto:kenneth.kelso@cadcamni.co.uk">
+                <h3>kenneth.kelso@cadcamni.co.uk</h3>
+              </a>
+              <a href="https://www.linkedin.com/in/kenneth-kelso/">
+                <h3>linkedin.com/in/kenneth-kelso</h3>
+              </a>
             </div>
-            <div className="box">
+            <div className="pl-10 pt-3">
               <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                 src="/ni.png"
                 alt="Silouette of Northern Ireland"
-                width={100}
-                height={100}
+                width={120}
+                height={120}
               />
-                <img src="images/ni.png" alt="" width="40%"/>
             </div>
           </div>
         </div>
