@@ -8,7 +8,7 @@ export default function Home() {
 
       <div id="titlePage" className="flex min-h-screen flex-col items-center justify-between p-24">
         {/* CadCamLogo */}
-        <div className="relative flex place-items-center my-5 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <div className="relative flex place-items-center my-5 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px]">
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             src='/CadCamLogoFinal.png'
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
 
         {/* Title Image */}
-        <div className="relative flex place-items-center my-5 px-10 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <div className="relative flex place-items-center my-5 px-10 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px]">
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             src="/PcScreen.png"
@@ -170,7 +170,6 @@ export default function Home() {
 
           <a
             className=""
-            href="https://www.mastercam.com/news/press-releases/mastercam-top-ranking/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -255,14 +254,14 @@ export default function Home() {
           <div className="">
             <ul className="buttons">
               <li>
-                <a href="assets\CCNI Reverse Screw Catalogue 2023.pdf" target="_new">
+                <a href="https://cadcamni.co.uk/assets/CCNI Reverse Screw Catalogue 2023.pdf" target="_new">
                 <div className="blueButton btn-block">
                   <h2>CATALOGUE</h2>
                 </div>
                 </a>
               </li>
               <li>
-                <a href="assets\CCNI Reverse Screws 2023.pdf" target="_new">
+                <a href="https://cadcamni.co.uk/assets/CCNI Reverse Screws 2023.pdf" target="_new">
                 <div className="blueButton btn-block">
                   <h2>SPECIFICATIONS</h2>
                 </div>
