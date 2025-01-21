@@ -10,7 +10,7 @@ export default function Home() {
         {/* CadCamLogo */}
         <div className="relative flex place-items-center my-5 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             src='/CadCamLogoFinal.png'
             alt="CadCamNI Logo"
             width={1000}
@@ -23,7 +23,7 @@ export default function Home() {
         {/* Title Image */}
         <div className="relative flex place-items-center my-5 px-10 before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             src="/PcScreen.png"
             alt="PC Screen doing CAD"
             width={378}
@@ -108,7 +108,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-content-center">
             <div className="">
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
                 src="/images/CadDrawing.gif"
                 alt="Cad drawing of a part"
                 width={350}
@@ -160,7 +160,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/mastercam.png"
               alt="Mastercam Logo"
               width={850}
@@ -176,7 +176,7 @@ export default function Home() {
           >
             <h1 className="text-3xl font-extrabold text-white-900 pt-5 text-right">#1 in NC Programming WORLDWIDE</h1>
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/NCchart.png"
               alt="CadCamNI Logo"
               width={850}
@@ -243,7 +243,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/reverse-screws.png"
               alt="Box of 25 M10 reverse screws with CadCamNI 3D-printed box"
               width={850}
@@ -279,7 +279,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-content-center">
             <div className="basis-1/3">
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
                 src="/headshot5.png"
                 alt="Kenneth Kelso with arms folded smiling"
                 width={200}
@@ -302,7 +302,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center">
               <a href="https://uk.bombardier.com" target="_blank">
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] hover:opacity-50 p-5"
                   src="/bombardierLogo.png"
                   alt="Bombardier Logo"
                   width={200}
@@ -311,7 +311,7 @@ export default function Home() {
               </a>
               <a href="https://www.smiths-engineering.com" target="_blank">
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] hover:opacity-50 p-5"
                   src="/smithsLogo.png"
                   alt="Smiths Engineering Logo"
                   width={200}
@@ -320,7 +320,7 @@ export default function Home() {
               </a>
               <a href="https://kaneprecisionengineering.com" target="_blank">
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] hover:opacity-50 p-5"
                   src="/jwkaneLogo.png"
                   alt="JWK Engineering Logo"
                   width={200}
@@ -329,7 +329,7 @@ export default function Home() {
               </a>
               <a href="https://magellan.aero" target="_blank">
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert hover:opacity-50 p-5"
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] hover:opacity-50 p-5"
                   src="/Magellan_Aerospace_Logo.png"
                   alt="Magellan Aerospace Logo"
                   width={200}
@@ -344,7 +344,7 @@ export default function Home() {
       <section id="contact" className="flex flex-col items-center justify-between p-24 bg-zinc-700 text-white">
         <div className="">
           <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
             src="/CadCamLogoBlockColour.png"
             alt="CadCamNI Logo"
             width={850}
@@ -366,7 +366,7 @@ export default function Home() {
             </div>
             <div className="pl-10 pt-3">
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
                 src="/ni.png"
                 alt="Silouette of Northern Ireland"
                 width={120}
